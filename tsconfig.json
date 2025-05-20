@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "esModuleInterop": true,
+        "target": "ES2024",
+        "moduleResolution": "node",
+        "sourceMap": false,
+        "outDir": "dist"
+    },
+    "lib": ["ES2024"]
+}

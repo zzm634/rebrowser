@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Page</title>
+</head>
+<body>
+    <a href=".">
+    <img src="viewport.png" id="viewport" ismap/>
+    </a>
+
+    <script>
+        const viewport = document.getElementById("viewport");
+        let cacheBuster = 0;
+        setInterval(() => {
+            viewport.src = "viewport.png?" + (cacheBuster++);
+        }, 1000);
+    </script>
+</body>
+</html>

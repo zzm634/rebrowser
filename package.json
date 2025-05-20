@@ -1,0 +1,34 @@
+{
+  "name": "rebrowser",
+  "version": "1.0.0",
+  "description": "A hosted web browser instance you can use from ancient hardware.",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "serve": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzm634/rebrowser.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zzm634/rebrowser/issues"
+  },
+  "homepage": "https://github.com/zzm634/rebrowser#readme",
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.8",
+    "@types/express": "^5.0.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cookie-parser": "^1.4.7",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "puppeteer": "^24.8.2"
+  }
+}

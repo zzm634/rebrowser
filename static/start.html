@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Rebrowser Start Page</title>
+</head>
+<body>
+    <h1>Create New Page</h1>
+    <form action="/pages/" method="POST">
+        <label for="startUrl">Start Page:</label>
+        <input type="text" id="startUrl" name="startUrl" value="https://www.google.com/">
+        <label for="viewportWidth">Viewport Width:</label>
+        <input type="number" id="viewportWidth" name="viewportWidth" value="1024" min="64" max="65535">
+        <input type="submit" value="Go!">
+    </form>
+</body>
+</html>
